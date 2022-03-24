@@ -87,4 +87,5 @@ def execute_query(script):
             cursor.executescript(script)
 
 
-execute_query(query)
+if __name__ == '__main__':
+    execute_query(query)
